@@ -18,3 +18,9 @@ spec:
     automated: {}
     syncOptions:
       - Prune=true
+    managedNamespaceMetadata:
+      labels:
+        argocd.argoproj.io/managed-by: openshift-gitops
+      annotations:
+        app.openshift.io/vcs-uri: "https://github.com/csfreak/tmxdemo.git"
+        app.openshift.io/vcs-ref: main
