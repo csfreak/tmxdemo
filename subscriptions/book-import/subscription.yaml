@@ -23,7 +23,7 @@ metadata:
     apps.open-cluster-management.io/git-branch: prod
     apps.open-cluster-management.io/git-path: book-import
   labels:
-    app: book-import-prod
+    app: book-import
   name: book-import-prod
   namespace: book-import
 spec:
