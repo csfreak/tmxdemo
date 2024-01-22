@@ -3,7 +3,6 @@ apiVersion: cluster.open-cluster-management.io/v1beta1
 kind: Placement
 metadata:
   name: helloworld-placement
-  namespace: openshift-gitops
 spec:
   predicates:
     - requiredClusterSelector:

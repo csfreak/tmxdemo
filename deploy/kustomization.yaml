@@ -1,8 +1,5 @@
 resources:
  - channel
- - subscriptions/book-import
- - subscriptions/pacman
- # - subscription/helloworld
- - appset/helloworld
-
-namespace: application-samples
+ - subscriptions
+ - argocd
+ - appset

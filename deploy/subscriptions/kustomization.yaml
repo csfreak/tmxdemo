@@ -1,0 +1,5 @@
+resources:
+ - book-import
+ - pacman
+
+namespace: application-samples
