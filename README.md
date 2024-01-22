@@ -3,20 +3,18 @@ The home for Application samples, based on the open-cluster-management.io Subscr
 
 ## Requirements
 - `open-cluster-management.io` or Red Hat Advanced Cluster Management for Kubernetes.
-- Clusters labelled as `development`, `test` and/or `production`
+- Clusters labelled as `development`, and `production`
 ```yaml
 metadata:
   labels:
     usage: development
 ```
+- All clusters with any `usage` label will get `helloworld` app.
 
 # How to use
-1. The first time you want to start using the Subscriptions from the CLI, add the channel (source) repository.
+1. Add argocd application CR from deploy repo
 ```bash
-oc apply -k subscriptions/channel
+oc apply -f deploy/app-deploy.yaml
 ```
-2. Now apply the subscription you want to demonstrate
-```bash
-oc apply -k subscriptions/DEMO_APP_NAME
-```
-3. You can also add these applications using the Red Had Advanced Cluster Management for Kubernetes console.
+
+
