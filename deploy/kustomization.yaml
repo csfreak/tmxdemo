@@ -4,3 +4,5 @@ resources:
  - subscriptions/pacman
  # - subscription/helloworld
  - appset/helloworld
+
+namespace: application-samples

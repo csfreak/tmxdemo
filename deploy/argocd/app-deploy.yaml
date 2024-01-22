@@ -10,8 +10,6 @@ spec:
   project: default
   source:
     path: deploy
-    directory:
-      recurse: true
     repoURL: https://github.com/csfreak/tmxdemo.git
     targetRevision: HEAD
   syncPolicy:

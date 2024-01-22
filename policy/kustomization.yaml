@@ -1,0 +1,4 @@
+resources:
+  - etcd-encryption/
+
+namespace: policies
