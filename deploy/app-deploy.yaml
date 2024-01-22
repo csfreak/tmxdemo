@@ -18,6 +18,8 @@ spec:
     automated: {}
     syncOptions:
       - Prune=true
+      - CreateNamespace=true
+      - PruneLast=true
     managedNamespaceMetadata:
       labels:
         argocd.argoproj.io/managed-by: openshift-gitops

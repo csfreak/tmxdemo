@@ -2,5 +2,5 @@ resources:
  - channel
  - subscriptions/book-import
  - subscriptions/pacman
- # - subscriptsion/helloworld
+ # - subscription/helloworld
  - appset/helloworld
