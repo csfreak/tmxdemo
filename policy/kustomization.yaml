@@ -1,4 +1,3 @@
 resources:
   - scc/
-  - podsecuritypolicy/
   #- etcd-encryption/
