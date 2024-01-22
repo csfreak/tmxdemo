@@ -6,7 +6,7 @@ metadata:
   labels:
     app: pacman-sample
   annotations:
-    apps.open-cluster-management.io/github-path: pacman
+    apps.open-cluster-management.io/github-path: apps/pacman
     apps.open-cluster-management.io/github-branch: main
 spec:
   channel: application-samples/gitops

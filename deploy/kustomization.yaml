@@ -1,0 +1,6 @@
+resources:
+ - channel
+ - subscriptions/book-import
+ - subscriptions/pacman
+ # - subscriptsion/helloworld
+ - appset/helloworld

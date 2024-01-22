@@ -21,7 +21,7 @@ kind: Subscription
 metadata:
   annotations:
     apps.open-cluster-management.io/git-branch: prod
-    apps.open-cluster-management.io/git-path: book-import
+    apps.open-cluster-management.io/git-path: apps/book-import
   labels:
     app: book-import
   name: book-import-prod
