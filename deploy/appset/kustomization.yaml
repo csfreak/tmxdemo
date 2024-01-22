@@ -1,4 +1,4 @@
 resources:
   - helloworld
 
-namesspace: openshift-gitops
+namespace: openshift-gitops
